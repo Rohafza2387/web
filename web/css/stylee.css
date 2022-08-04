@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+
+
+
+
+
+.login{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login .im{
+  width:100vw;
+  height:100vh;
+    background: cover;
+    background-image: url(http:\\localhost\Foodpicky\admin\Res_img\5ad74b9dbc38a.jpg); 
+}
+
+
+.login form{
+    padding:20px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+    background: #fff;
+    text-align: center;
+    width: 360px;
+}
+
+.login form h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+
+}
+
+.login form input{
+    width:90%;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin: 8px 0;
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+.login form .form_btm{
+    background-color: #fff;
+    color: rgb(236, 194, 8);
+    text-transform: capitalize;
+    width: 90%;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(236, 194, 8);
+
+}
+.login form .form_btm:hover{
+    background-color: rgb(236, 194, 8);;
+    color: #fff;
+}
+.login form p{
+    margin-top: 20px;
+    font-size: 19px;
+    color: #333;
+
+}
+.login form p a{
+    color: rgb(236, 194, 8);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  .navbar{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 5%;
+    width: 100%;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 0.5rem rgb(179, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .navbar ul{
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+  }
+  
+  .navbar ul li {
+    position: relative;
+    list-style: none;
+  }
+  .navbar ul li a{
+    font-size: 17px;
+    position:relative;
+    display:inline-block;
+    margin:0 15px;
+    color:rgb(236, 194, 8);
+    padding:10px 10px;
+    text-decoration:none;
+    border-radius:5px;
+  }
+  
+  .navbar ul li a:hover{
+    color:black;
+  }
+  
+.wrapperr {
+    padding: 15px;
+    border: 1px solid;
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 35%;
+
+  }
+input{
+  border-radius: 52px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+}
+select{
+  border-radius: 52px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 80 auto;
+}
+
+
+
+.form{
+    width: 267px;
+    padding: 26px;
+    border: 1px solid;
+}
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  
+  .tbl-full {
+    width: 100%;
+  }
+  .tbl-30 {
+    width: 30%;
+  }
+
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+
+  }
+
+  
+  table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    padding-left: 50px;
+    text-align: left;
+  }
+  
+  table tr td {
+    padding: 4%;
+  }
+  
+  .btn-primary {
+    background: none;
+    border: 1px solid rgb(236, 194, 8);
+    border-radius:52px;
+    font-size: 17px;
+    margin:0 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    color:rgb(31, 34, 31);
+    padding:8px 25px;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    background: rgb(236, 194, 8);
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background: none;
+    border: 1px solid rgb(236, 194, 8);
+    border-radius:52px;
+    font-size: 17px;
+    margin:0 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    color:rgb(31, 34, 31);
+    padding:8px 25px;
+    text-decoration: none;
+  
+  }
+  .btn-secondary:hover {
+    background: rgb(236, 194, 8);
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background: none;
+    border: 1px solid rgb(236, 8, 8);
+    border-radius:52px;
+    font-size: 17px;
+    margin:0 10px;
+    cursor: pointer;
+    color:rgb(31, 34, 31);
+    padding:8px 25px;
+    text-decoration: none;
+  }
+  .btn-danger:hover {
+    background: rgb(236, 8, 8);
+    color: #fff;
+  }
+  
+  .success {
+    color: #2ed573;
+  }
+  .error {
+    color: #5d9e5f;
+  }
+  
+  /* CSS for Menu */
+  .menu {
+    border-bottom: 1px solid grey;
+  }
+  .menu ul {
+    list-style-type: none;
+  }
+  .menu ul li {
+    display: inline;
+    padding: 1%;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5d9e5f;
+  }
+  .menu ul li a:hover {
+    color: #5d9e5f;
+  }
+  
+  /* CSS for main-content */
+  .main-content {
+    padding: 3% 0;
+  }
+  
+  .col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border: 1px solid;
+  }
+  
